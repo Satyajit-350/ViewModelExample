@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alata"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/real_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Real Name"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_below="@+id/name_text_view"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/team_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/real_name_text_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:fontFamily="@font/actor"
+            android:text="Team"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/appearance_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1941"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_below="@+id/team_text_view"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/bio_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hkagbfuganfkiagfcilanlabfibaflnlahcfilbhak.cnahvfakbnfkabfik"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_below="@+id/appearance_text_view"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
